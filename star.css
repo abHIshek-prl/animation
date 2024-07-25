@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    scrollbar-color: green;
+    
+}
+nav{
+    height: 30%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+
+.menu{
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid rgb(71, 71, 71);
+    background-color: white;
+    display: flex;
+}
+.option{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+}
+
+.div1{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: black;
+}
+
+.mnu{
+ color: black;
+ text-decoration-line: none;
+
+}
+.mnu:hover{
+    color: rgb(6, 125, 87);
+}
+
+
+
+.image img{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.search{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+}
+
+.acc{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#go{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 5px;
+}
+
+
+.star{
+    height: 50%;
+    width: 100%;
+    background-color:rgb(2, 46, 36);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    justify-content: space-evenly;
+    gap: 850px;
+    
+}
+.know{
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+}
+/* ------------------------------------------------------------ */
+
+
+.sec1{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* display: flex; */
+}
+
+.reward{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rewards{
+    height: 70%;
+    width: 90%;
+    background-color: rgb(173, 215, 201);
+    border-radius: 10px;
+    display: flex;
+}
+
+.rewards img{
+    height: 250px;
+    width: 130px;
+}
+.txtrwrd{
+    height: 100%;
+    width: 600px;
+    background-color:rgb(173, 215, 201);
+    margin-left: 20px;
+    
+}
+
+#more{
+    height: 50px;
+    width: 200px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 160px;
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 69, 48)
+   
+}
+
+.menus{
+    box-sizing: border-box;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+.head{
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.items{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+
+}
+.items img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.items img:hover{
+    box-sizing: border-box;
+    border: 2px solid rgb(10, 119, 6);
+}
+
+/* ---------------------------------------------- */
+
+.main2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: rgb(211, 209, 207);
+}
+
+#view{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+}
+
+#view button{
+    height: 20px;
+    width: 850px;
+    text-align: end;
+    background-color:  rgb(211, 209, 207);
+    border: 0;
+    color: rgb(3, 94, 64);
+
+}
+
+#leaf{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.contain3{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#recommend{
+    margin-left: 55px;
+}
+
+.three{
+    height:99%;
+    width: 28%;
+    background-color:  rgb(211, 209, 207);
+    display: flex;
+}
+
+.pic{
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius:10px 0 0 10px ;
+}
+
+.pic img{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.detail{
+    height: 100%;
+    width: 65%;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.reclst{
+    list-style-type: none;
+    line-height: 10px;
+}
+
+.veg img{
+    height: 15px;
+    width: 15px;
+
+}
+
+.btn3{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(7, 125, 105);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.btn3:hover{
+    background-color: rgb(3, 45, 31);
+}
+
+
+.gap{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+.main3{
+    height: 450px;
+    width: 100%;
+    background-color:  rgb(211, 209, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#about{
+    height: 40px;
+    width: 90%;
+    text-align: start;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 600px;
+    
+    
+}
+
+#about h1{
+    font-weight: bolder;
+}
+
+.discover{
+    height: 30px;
+    width: 150px;
+    color: rgb(0, 96, 0);
+    border: 0;
+    background-color:  rgb(211, 209, 207);
+
+}
+.sec3{
+    height: 80%;
+    width: 90%;
+    background-image: url(images/coffe.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+}
+
+.cover:hover {
+    background-color: rgba(0, 0, 0, 0.607);
+    border-radius: 10px;
+  }
+
+.culture{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color:  rgb(245, 239, 232);
+    border: 0;
+    color: rgb(5, 171, 110);
+    border-radius: 5px;
+}
+
+#Art{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+#master{
+    color: white;
+    margin-left: 30px;
+}
+
+.artbtn{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(255, 251, 246);
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.artbtn:hover{
+    background-color: rgb(212, 212, 196);
+}
+
+.gap1{
+    height: 30px;
+    width: 100%;
+    background-color:  rgb(211, 209, 207);
+}
+.gap2{
+    height: 40px;
+    width: 100%;
+    background-color:  rgb(255, 255, 255);
+}
+
+.main4{
+    height: 850px;
+    width: 100%;
+    background-color: rgb(4, 97, 71);
+    /* flex: 1; */
+    /* display: flex; */
+
+}
+
+.six{
+    height: 730px;
+    width: 18%;
+    background-color:rgb(4, 97, 71);
+    display: flex;
+   justify-content: center;
+   color: white;
+}
+
+#lgo{
+    height: 60px;
+    width: 60px;
+    margin-top: 100px;
+    
+}
+
+.about{
+    margin-top: 70px;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.about1{
+    margin-top: 100px;
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+
+.neo{
+    line-height: 20px;
+}
+
+.f{
+    text-decoration-line: none;
+    color: white;
+}
+
+.f:hover{
+    color: rgb(198, 198, 198);
+}
+
+.contain6{
+    height: 730px;
+    width: 100%;
+    display: flex;
+}
+
+.footer{
+    margin-left: 5%;
+    height: 60px;
+    width: 90%;
+    display: flex;
+}
+
+.down1{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid rgb(255, 255, 255);
+
+}
+
+.down2{
+    height: 100%;
+    width: 30%;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.left{
+    height: 30%;
+    width: 110px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.left1{
+    height: 30%;
+    width: 70px;
+    text-align: center;
+    font-size: 13px;
+   
+}
+.down2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
